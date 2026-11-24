@@ -1,0 +1,866 @@
+{
+  "language_name": "未命名",
+  "version": "0.1",
+  "status": "学習用暫定標準。既出＝以前の会話に登場した語、新案＝本版で新設。過去の演説は試作で未登録語を含む。",
+  "alphabet": "A Ä B C D E F G H I J K L M N O Ö P R S T U Ü V W Z",
+  "rules": [
+    {
+      "title": "文字と音韻",
+      "body": "標準26文字：A Ä B C D E F G H I J K L M N O Ö P R S T U Ü V W Z。母音8種：a /a/, ä /ɛ/, e /e/, i /i/, o /o/, ö /ø/, u /u/, ü /y/。同じ母音を2つ書くと長母音。ei /aɪ̯/, ai /ɛə̯/, au /aʊ̯/, eu /ɔʏ̯/, oi /oɪ̯/。thae の ae は /eː/ とする（既出語の例外）。"
+    },
+    {
+      "title": "子音とアクセント",
+      "body": "b d f g h k l m n p s t v w は基本的に IPA と同じ（v はヴ、w はワ）。j /j/, r /ʁ/, z /ts/, sch /ʃ/, th /θ/, ng /ŋ/。ch は a・o・u・au（長母音を含む）の直後で /x/、それ以外は /ç/。語頭 st /ʃt/、sp /ʃp/。c は ch・sch の一部のみ。語末の有声子音を維持する。語根の最初の音節に強勢。無強勢の語末音節の e は /ə/ になりうる。重子音は一つの子音として読む。カナは近似。"
+    },
+    {
+      "title": "基本語順",
+      "body": "主語＋動詞＋目的語（SVO）。人称・単複による動詞変化なし。代名詞は主語・目的語で同形。文頭を大文字にし、普通名詞は小文字。例：Ek leiv dair.（私はあなたを愛している。）"
+    },
+    {
+      "title": "名詞・冠詞・形容詞",
+      "body": "名詞に性はない。複数は名詞に -er を付ける。定冠詞 thae、不定冠詞 en（単数のみ）。冠詞なしも可能。形容詞は名詞の前に置く。例：en niir buur（新しい本一冊）、fränder（友達たち）。"
+    },
+    {
+      "title": "時制と進行",
+      "body": "現在は辞書形。末尾 -en の動詞（4文字以上）は -en を除いた語幹に -ed（過去）、-ar（未来）、-ing（現在進行）を付ける。他の動詞は辞書形に直接付ける。例：trelven / trelved / trelvar / trelving、leiv / leived / leivar / leiving。現在進行は進行中の動作に使う。"
+    },
+    {
+      "title": "否定・疑問",
+      "body": "否定は動詞の直前に ne。疑問文は先頭に ka を加え、語順は変えない。例：Ek ne vesen.（私は知らない。）Ka dair trelven?（あなたは話しますか？）"
+    },
+    {
+      "title": "その他",
+      "body": "sen は「〜である」。現在 sen、過去 sened、未来 senar。形容詞・名詞を補語に取る。前置詞 in（中に・で）、für（〜のために）、接続詞 und（と・そして）、dass（〜ということ）。高度な節構造・敬語は未設計。"
+    }
+  ],
+  "words": [
+    {
+      "w": "ek",
+      "ja": "私",
+      "en": "I / me",
+      "pos": "代名詞",
+      "kana": "エク",
+      "ipa": "ek",
+      "origin": "既出"
+    },
+    {
+      "w": "dair",
+      "ja": "あなた",
+      "en": "you",
+      "pos": "代名詞",
+      "kana": "デア",
+      "ipa": "dɛə̯ʁ",
+      "origin": "既出"
+    },
+    {
+      "w": "hen",
+      "ja": "彼",
+      "en": "he / him",
+      "pos": "代名詞",
+      "kana": "ヘン",
+      "ipa": "hen",
+      "origin": "既出"
+    },
+    {
+      "w": "schään",
+      "ja": "彼女",
+      "en": "she / her",
+      "pos": "代名詞",
+      "kana": "シェーン",
+      "ipa": "ʃɛːn",
+      "origin": "既出"
+    },
+    {
+      "w": "veir",
+      "ja": "私たち",
+      "en": "we / us",
+      "pos": "代名詞",
+      "kana": "ヴァイル",
+      "ipa": "vaɪ̯ʁ",
+      "origin": "既出"
+    },
+    {
+      "w": "thern",
+      "ja": "彼ら",
+      "en": "they / them",
+      "pos": "代名詞",
+      "kana": "セェルン",
+      "ipa": "θeʁn",
+      "origin": "既出"
+    },
+    {
+      "w": "värn",
+      "ja": "人間",
+      "en": "human",
+      "pos": "名詞",
+      "kana": "ヴェルン",
+      "ipa": "vɛʁn",
+      "origin": "既出"
+    },
+    {
+      "w": "aulden",
+      "ja": "世界",
+      "en": "world",
+      "pos": "名詞",
+      "kana": "アウルデン",
+      "ipa": "aʊ̯ldən",
+      "origin": "既出"
+    },
+    {
+      "w": "stärn",
+      "ja": "国家",
+      "en": "state",
+      "pos": "名詞",
+      "kana": "シュテルン",
+      "ipa": "ʃtɛʁn",
+      "origin": "既出"
+    },
+    {
+      "w": "freith",
+      "ja": "自由",
+      "en": "freedom",
+      "pos": "名詞",
+      "kana": "フライス",
+      "ipa": "fʁaɪ̯θ",
+      "origin": "既出"
+    },
+    {
+      "w": "heiven",
+      "ja": "平和",
+      "en": "peace",
+      "pos": "名詞",
+      "kana": "ハイヴェン",
+      "ipa": "haɪ̯vən",
+      "origin": "既出"
+    },
+    {
+      "w": "zair",
+      "ja": "時間",
+      "en": "time",
+      "pos": "名詞",
+      "kana": "ツェア",
+      "ipa": "tsɛə̯ʁ",
+      "origin": "既出"
+    },
+    {
+      "w": "hald",
+      "ja": "家",
+      "en": "home",
+      "pos": "名詞",
+      "kana": "ハルド",
+      "ipa": "hald",
+      "origin": "既出"
+    },
+    {
+      "w": "leiv",
+      "ja": "愛する",
+      "en": "love",
+      "pos": "動詞",
+      "kana": "ライヴ",
+      "ipa": "laɪ̯v",
+      "origin": "既出"
+    },
+    {
+      "w": "krenst",
+      "ja": "知識",
+      "en": "knowledge",
+      "pos": "名詞",
+      "kana": "クレンスト",
+      "ipa": "kʁenst",
+      "origin": "既出"
+    },
+    {
+      "w": "voren",
+      "ja": "未来",
+      "en": "future",
+      "pos": "名詞",
+      "kana": "ヴォレン",
+      "ipa": "voʁən",
+      "origin": "既出"
+    },
+    {
+      "w": "leven",
+      "ja": "生きる",
+      "en": "live",
+      "pos": "動詞",
+      "kana": "レヴェン",
+      "ipa": "levən",
+      "origin": "既出"
+    },
+    {
+      "w": "vesen",
+      "ja": "知る",
+      "en": "know",
+      "pos": "動詞",
+      "kana": "ヴェセン",
+      "ipa": "vesən",
+      "origin": "既出"
+    },
+    {
+      "w": "trelven",
+      "ja": "話す",
+      "en": "speak",
+      "pos": "動詞",
+      "kana": "トレルヴェン",
+      "ipa": "tʁelvən",
+      "origin": "既出"
+    },
+    {
+      "w": "varden",
+      "ja": "守る",
+      "en": "protect",
+      "pos": "動詞",
+      "kana": "ヴァルデン",
+      "ipa": "vaʁdən",
+      "origin": "既出"
+    },
+    {
+      "w": "schald",
+      "ja": "安全",
+      "en": "safety",
+      "pos": "名詞",
+      "kana": "シャルド",
+      "ipa": "ʃald",
+      "origin": "既出"
+    },
+    {
+      "w": "vracht",
+      "ja": "力",
+      "en": "strength",
+      "pos": "名詞",
+      "kana": "ヴラハト",
+      "ipa": "vʁaxt",
+      "origin": "既出"
+    },
+    {
+      "w": "graust",
+      "ja": "大地",
+      "en": "land",
+      "pos": "名詞",
+      "kana": "グラウスト",
+      "ipa": "gʁaʊ̯st",
+      "origin": "既出"
+    },
+    {
+      "w": "eiren",
+      "ja": "希望",
+      "en": "hope",
+      "pos": "名詞",
+      "kana": "アイレン",
+      "ipa": "aɪ̯ʁən",
+      "origin": "既出"
+    },
+    {
+      "w": "brünt",
+      "ja": "血",
+      "en": "blood",
+      "pos": "名詞",
+      "kana": "ブリュント",
+      "ipa": "bʁynt",
+      "origin": "既出"
+    },
+    {
+      "w": "örn",
+      "ja": "空",
+      "en": "sky",
+      "pos": "名詞",
+      "kana": "エルン",
+      "ipa": "øʁn",
+      "origin": "既出"
+    },
+    {
+      "w": "speld",
+      "ja": "言語",
+      "en": "language",
+      "pos": "名詞",
+      "kana": "シュペルド",
+      "ipa": "ʃpeld",
+      "origin": "既出"
+    },
+    {
+      "w": "reng",
+      "ja": "雨",
+      "en": "rain",
+      "pos": "名詞",
+      "kana": "レング",
+      "ipa": "ʁeŋ",
+      "origin": "既出"
+    },
+    {
+      "w": "ne",
+      "ja": "〜ない",
+      "en": "not",
+      "pos": "助詞",
+      "kana": "ネ",
+      "ipa": "ne",
+      "origin": "既出"
+    },
+    {
+      "w": "und",
+      "ja": "そして・と",
+      "en": "and",
+      "pos": "接続詞",
+      "kana": "ウンド",
+      "ipa": "und",
+      "origin": "既出"
+    },
+    {
+      "w": "für",
+      "ja": "〜のために",
+      "en": "for",
+      "pos": "前置詞",
+      "kana": "フュル",
+      "ipa": "fyʁ",
+      "origin": "既出"
+    },
+    {
+      "w": "thae",
+      "ja": "その（定冠詞）",
+      "en": "the",
+      "pos": "冠詞",
+      "kana": "セー",
+      "ipa": "θeː",
+      "origin": "既出"
+    },
+    {
+      "w": "in",
+      "ja": "〜の中に・で",
+      "en": "in",
+      "pos": "前置詞",
+      "kana": "イン",
+      "ipa": "in",
+      "origin": "既出"
+    },
+    {
+      "w": "sterven",
+      "ja": "死ぬ",
+      "en": "die",
+      "pos": "動詞",
+      "kana": "シュテルヴェン",
+      "ipa": "ʃteʁvən",
+      "origin": "既出"
+    },
+    {
+      "w": "ka",
+      "ja": "疑問文の印",
+      "en": "question marker",
+      "pos": "助詞",
+      "kana": "カ",
+      "ipa": "ka",
+      "origin": "新案"
+    },
+    {
+      "w": "en",
+      "ja": "ある一つの（不定冠詞）",
+      "en": "a / an",
+      "pos": "冠詞",
+      "kana": "エン",
+      "ipa": "en",
+      "origin": "新案"
+    },
+    {
+      "w": "sen",
+      "ja": "〜である",
+      "en": "be",
+      "pos": "動詞",
+      "kana": "セン",
+      "ipa": "sen",
+      "origin": "新案"
+    },
+    {
+      "w": "säl",
+      "ja": "こんにちは",
+      "en": "hello",
+      "pos": "挨拶",
+      "kana": "セル",
+      "ipa": "sɛl",
+      "origin": "新案"
+    },
+    {
+      "w": "tren",
+      "ja": "ありがとう",
+      "en": "thank you",
+      "pos": "挨拶",
+      "kana": "トレン",
+      "ipa": "tʁen",
+      "origin": "新案"
+    },
+    {
+      "w": "ja",
+      "ja": "はい",
+      "en": "yes",
+      "pos": "挨拶",
+      "kana": "ヤ",
+      "ipa": "ja",
+      "origin": "新案"
+    },
+    {
+      "w": "nau",
+      "ja": "いいえ",
+      "en": "no",
+      "pos": "挨拶",
+      "kana": "ナウ",
+      "ipa": "naʊ̯",
+      "origin": "新案"
+    },
+    {
+      "w": "schöven",
+      "ja": "さようなら",
+      "en": "goodbye",
+      "pos": "挨拶",
+      "kana": "シェーヴェン",
+      "ipa": "ʃøvən",
+      "origin": "新案"
+    },
+    {
+      "w": "maren",
+      "ja": "食べる",
+      "en": "eat",
+      "pos": "動詞",
+      "kana": "マレン",
+      "ipa": "maʁən",
+      "origin": "新案"
+    },
+    {
+      "w": "drenen",
+      "ja": "飲む",
+      "en": "drink",
+      "pos": "動詞",
+      "kana": "ドレネン",
+      "ipa": "dʁenən",
+      "origin": "新案"
+    },
+    {
+      "w": "velken",
+      "ja": "行く",
+      "en": "go",
+      "pos": "動詞",
+      "kana": "ヴェルケン",
+      "ipa": "velkən",
+      "origin": "新案"
+    },
+    {
+      "w": "kaven",
+      "ja": "来る",
+      "en": "come",
+      "pos": "動詞",
+      "kana": "カヴェン",
+      "ipa": "kavən",
+      "origin": "新案"
+    },
+    {
+      "w": "serven",
+      "ja": "見る",
+      "en": "see",
+      "pos": "動詞",
+      "kana": "セルヴェン",
+      "ipa": "seʁvən",
+      "origin": "新案"
+    },
+    {
+      "w": "hören",
+      "ja": "聞く",
+      "en": "hear",
+      "pos": "動詞",
+      "kana": "ヘーレン",
+      "ipa": "høʁən",
+      "origin": "新案"
+    },
+    {
+      "w": "lersten",
+      "ja": "学ぶ",
+      "en": "learn",
+      "pos": "動詞",
+      "kana": "レルステン",
+      "ipa": "leʁstən",
+      "origin": "新案"
+    },
+    {
+      "w": "schreiben",
+      "ja": "書く",
+      "en": "write",
+      "pos": "動詞",
+      "kana": "シュライベン",
+      "ipa": "ʃʁaɪ̯bən",
+      "origin": "新案"
+    },
+    {
+      "w": "braven",
+      "ja": "読む",
+      "en": "read",
+      "pos": "動詞",
+      "kana": "ブラヴェン",
+      "ipa": "bʁavən",
+      "origin": "新案"
+    },
+    {
+      "w": "hafen",
+      "ja": "持つ",
+      "en": "have",
+      "pos": "動詞",
+      "kana": "ハフェン",
+      "ipa": "hafən",
+      "origin": "新案"
+    },
+    {
+      "w": "waas",
+      "ja": "水",
+      "en": "water",
+      "pos": "名詞",
+      "kana": "ワース",
+      "ipa": "waːs",
+      "origin": "新案"
+    },
+    {
+      "w": "meld",
+      "ja": "食べ物",
+      "en": "food",
+      "pos": "名詞",
+      "kana": "メルド",
+      "ipa": "meld",
+      "origin": "新案"
+    },
+    {
+      "w": "fränd",
+      "ja": "友達",
+      "en": "friend",
+      "pos": "名詞",
+      "kana": "フレンド",
+      "ipa": "fʁɛnd",
+      "origin": "新案"
+    },
+    {
+      "w": "närd",
+      "ja": "名前",
+      "en": "name",
+      "pos": "名詞",
+      "kana": "ネァルド",
+      "ipa": "nɛʁd",
+      "origin": "新案"
+    },
+    {
+      "w": "lerst",
+      "ja": "学校",
+      "en": "school",
+      "pos": "名詞",
+      "kana": "レルスト",
+      "ipa": "leʁst",
+      "origin": "新案"
+    },
+    {
+      "w": "buur",
+      "ja": "本",
+      "en": "book",
+      "pos": "名詞",
+      "kana": "ブール",
+      "ipa": "buːʁ",
+      "origin": "新案"
+    },
+    {
+      "w": "daag",
+      "ja": "日",
+      "en": "day",
+      "pos": "名詞",
+      "kana": "ダーグ",
+      "ipa": "daːg",
+      "origin": "新案"
+    },
+    {
+      "w": "nacht",
+      "ja": "夜",
+      "en": "night",
+      "pos": "名詞",
+      "kana": "ナハト",
+      "ipa": "naxt",
+      "origin": "新案"
+    },
+    {
+      "w": "haint",
+      "ja": "今日",
+      "en": "today",
+      "pos": "副詞",
+      "kana": "ヘアント",
+      "ipa": "hɛə̯nt",
+      "origin": "新案"
+    },
+    {
+      "w": "mörgen",
+      "ja": "明日",
+      "en": "tomorrow",
+      "pos": "副詞",
+      "kana": "メルゲン",
+      "ipa": "møʁgən",
+      "origin": "新案"
+    },
+    {
+      "w": "gern",
+      "ja": "良い",
+      "en": "good",
+      "pos": "形容詞",
+      "kana": "ゲルン",
+      "ipa": "geʁn",
+      "origin": "新案"
+    },
+    {
+      "w": "schwer",
+      "ja": "難しい",
+      "en": "difficult",
+      "pos": "形容詞",
+      "kana": "シュウェル",
+      "ipa": "ʃweʁ",
+      "origin": "新案"
+    },
+    {
+      "w": "laicht",
+      "ja": "簡単な",
+      "en": "easy",
+      "pos": "形容詞",
+      "kana": "レアヒト",
+      "ipa": "lɛə̯çt",
+      "origin": "新案"
+    },
+    {
+      "w": "niir",
+      "ja": "新しい",
+      "en": "new",
+      "pos": "形容詞",
+      "kana": "ニール",
+      "ipa": "niːʁ",
+      "origin": "新案"
+    },
+    {
+      "w": "alt",
+      "ja": "古い",
+      "en": "old",
+      "pos": "形容詞",
+      "kana": "アルト",
+      "ipa": "alt",
+      "origin": "新案"
+    },
+    {
+      "w": "klaar",
+      "ja": "明確な",
+      "en": "clear",
+      "pos": "形容詞",
+      "kana": "クラール",
+      "ipa": "klaːʁ",
+      "origin": "新案"
+    },
+    {
+      "w": "dass",
+      "ja": "〜ということ",
+      "en": "that",
+      "pos": "接続詞",
+      "kana": "ダス",
+      "ipa": "das",
+      "origin": "既出"
+    },
+    {
+      "w": "stemm",
+      "ja": "声",
+      "en": "voice",
+      "pos": "名詞",
+      "kana": "シュテム",
+      "ipa": "ʃtem",
+      "origin": "既出"
+    }
+  ],
+  "lessons": [
+    {
+      "title": "最初の言葉",
+      "subtitle": "挨拶と代名詞",
+      "words": [
+        "ek",
+        "dair",
+        "säl",
+        "tren",
+        "ja",
+        "nau",
+        "schöven",
+        "leiv"
+      ],
+      "phrases": [
+        [
+          "Säl!",
+          "こんにちは！"
+        ],
+        [
+          "Tren!",
+          "ありがとう！"
+        ],
+        [
+          "Ek leiv dair.",
+          "私はあなたを愛している。"
+        ]
+      ]
+    },
+    {
+      "title": "日常の動作",
+      "subtitle": "主語＋動詞＋目的語",
+      "words": [
+        "hen",
+        "schään",
+        "veir",
+        "thern",
+        "leiv",
+        "leven",
+        "maren",
+        "drenen",
+        "waas",
+        "meld",
+        "hafen",
+        "serven",
+        "hören"
+      ],
+      "phrases": [
+        [
+          "Ek drenen waas.",
+          "私は水を飲む。"
+        ],
+        [
+          "Hen maren meld.",
+          "彼は食べ物を食べる。"
+        ],
+        [
+          "Veir leven.",
+          "私たちは生きる。"
+        ]
+      ]
+    },
+    {
+      "title": "言語を学ぶ",
+      "subtitle": "冠詞と否定",
+      "words": [
+        "ne",
+        "en",
+        "thae",
+        "lersten",
+        "trelven",
+        "speld",
+        "braven",
+        "buur",
+        "vesen",
+        "schreiben",
+        "dass",
+        "in"
+      ],
+      "phrases": [
+        [
+          "Ek lersten speld.",
+          "私は言語を学ぶ。"
+        ],
+        [
+          "Ek braven en buur.",
+          "私は本を一冊読む。"
+        ],
+        [
+          "Ek ne vesen.",
+          "私は知らない。"
+        ]
+      ]
+    },
+    {
+      "title": "時間と質問",
+      "subtitle": "過去・未来・進行・疑問文",
+      "words": [
+        "ka",
+        "zair",
+        "haint",
+        "mörgen",
+        "velken",
+        "kaven",
+        "daag",
+        "nacht",
+        "reng",
+        "örn"
+      ],
+      "phrases": [
+        [
+          "Ka dair trelven?",
+          "あなたは話しますか？"
+        ],
+        [
+          "Ek trelved.",
+          "私は話した。"
+        ],
+        [
+          "Ek trelvar.",
+          "私は話すだろう。"
+        ],
+        [
+          "Ek trelving.",
+          "私は話している。"
+        ]
+      ]
+    },
+    {
+      "title": "身の回り",
+      "subtitle": "複数形と形容詞",
+      "words": [
+        "hald",
+        "fränd",
+        "närd",
+        "lerst",
+        "niir",
+        "alt",
+        "gern",
+        "schwer",
+        "laicht",
+        "klaar",
+        "hafen"
+      ],
+      "phrases": [
+        [
+          "Ek hafen fränder.",
+          "私は友達がいる。"
+        ],
+        [
+          "Thae niir buur sen gern.",
+          "その新しい本は良い。"
+        ],
+        [
+          "Ek braven thae alt buur.",
+          "私はその古い本を読む。"
+        ]
+      ]
+    },
+    {
+      "title": "自由と未来",
+      "subtitle": "演説の語彙",
+      "words": [
+        "värn",
+        "aulden",
+        "stärn",
+        "freith",
+        "heiven",
+        "voren",
+        "varden",
+        "vracht",
+        "eiren",
+        "und",
+        "für",
+        "schald",
+        "graust",
+        "brünt",
+        "sterven",
+        "krenst",
+        "stemm",
+        "sen"
+      ],
+      "phrases": [
+        [
+          "Veir varden freith.",
+          "私たちは自由を守る。"
+        ],
+        [
+          "Heiven und freith.",
+          "平和と自由。"
+        ],
+        [
+          "Veir varden thae voren.",
+          "私たちはその未来を守る。"
+        ]
+      ]
+    }
+  ]
+}
